@@ -1,0 +1,7 @@
+C:\Users\CarlyScanlan\Desktop\C#\StudentDailyReport\StudentDailyReport\bin\Debug\StudentDailyReport.exe.config
+C:\Users\CarlyScanlan\Desktop\C#\StudentDailyReport\StudentDailyReport\bin\Debug\StudentDailyReport.exe
+C:\Users\CarlyScanlan\Desktop\C#\StudentDailyReport\StudentDailyReport\bin\Debug\StudentDailyReport.pdb
+C:\Users\CarlyScanlan\Desktop\C#\StudentDailyReport\StudentDailyReport\obj\Debug\StudentDailyReport.csprojAssemblyReference.cache
+C:\Users\CarlyScanlan\Desktop\C#\StudentDailyReport\StudentDailyReport\obj\Debug\StudentDailyReport.csproj.CoreCompileInputs.cache
+C:\Users\CarlyScanlan\Desktop\C#\StudentDailyReport\StudentDailyReport\obj\Debug\StudentDailyReport.exe
+C:\Users\CarlyScanlan\Desktop\C#\StudentDailyReport\StudentDailyReport\obj\Debug\StudentDailyReport.pdb
