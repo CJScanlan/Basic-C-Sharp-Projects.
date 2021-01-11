@@ -1,0 +1,6 @@
+C:\Users\CarlyScanlan\Desktop\C#\IncomeComparison\IncomeComparison\bin\Debug\IncomeComparison.exe.config
+C:\Users\CarlyScanlan\Desktop\C#\IncomeComparison\IncomeComparison\bin\Debug\IncomeComparison.exe
+C:\Users\CarlyScanlan\Desktop\C#\IncomeComparison\IncomeComparison\bin\Debug\IncomeComparison.pdb
+C:\Users\CarlyScanlan\Desktop\C#\IncomeComparison\IncomeComparison\obj\Debug\IncomeComparison.csproj.CoreCompileInputs.cache
+C:\Users\CarlyScanlan\Desktop\C#\IncomeComparison\IncomeComparison\obj\Debug\IncomeComparison.exe
+C:\Users\CarlyScanlan\Desktop\C#\IncomeComparison\IncomeComparison\obj\Debug\IncomeComparison.pdb
