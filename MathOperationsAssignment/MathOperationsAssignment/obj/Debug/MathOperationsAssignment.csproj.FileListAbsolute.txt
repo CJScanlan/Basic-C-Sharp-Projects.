@@ -1,0 +1,6 @@
+C:\Users\CarlyScanlan\Desktop\C#\MathOperationsAssignment\MathOperationsAssignment\bin\Debug\MathOperationsAssignment.exe.config
+C:\Users\CarlyScanlan\Desktop\C#\MathOperationsAssignment\MathOperationsAssignment\bin\Debug\MathOperationsAssignment.exe
+C:\Users\CarlyScanlan\Desktop\C#\MathOperationsAssignment\MathOperationsAssignment\bin\Debug\MathOperationsAssignment.pdb
+C:\Users\CarlyScanlan\Desktop\C#\MathOperationsAssignment\MathOperationsAssignment\obj\Debug\MathOperationsAssignment.csproj.CoreCompileInputs.cache
+C:\Users\CarlyScanlan\Desktop\C#\MathOperationsAssignment\MathOperationsAssignment\obj\Debug\MathOperationsAssignment.exe
+C:\Users\CarlyScanlan\Desktop\C#\MathOperationsAssignment\MathOperationsAssignment\obj\Debug\MathOperationsAssignment.pdb
