@@ -1,0 +1,6 @@
+C:\Users\CarlyScanlan\Desktop\C#\ShippingApplication\ShippingApplication\bin\Debug\ShippingApplication.exe.config
+C:\Users\CarlyScanlan\Desktop\C#\ShippingApplication\ShippingApplication\bin\Debug\ShippingApplication.exe
+C:\Users\CarlyScanlan\Desktop\C#\ShippingApplication\ShippingApplication\bin\Debug\ShippingApplication.pdb
+C:\Users\CarlyScanlan\Desktop\C#\ShippingApplication\ShippingApplication\obj\Debug\ShippingApplication.csproj.CoreCompileInputs.cache
+C:\Users\CarlyScanlan\Desktop\C#\ShippingApplication\ShippingApplication\obj\Debug\ShippingApplication.exe
+C:\Users\CarlyScanlan\Desktop\C#\ShippingApplication\ShippingApplication\obj\Debug\ShippingApplication.pdb
