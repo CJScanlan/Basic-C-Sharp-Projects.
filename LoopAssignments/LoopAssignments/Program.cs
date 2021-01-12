@@ -56,7 +56,6 @@ namespace LoopAssignments
             }
             while (!isGuessed);
 
-
             Console.WriteLine("Now pick an instrument.");
             string instrument = Console.ReadLine();
             bool isCorrect = instrument == "ukulele";
@@ -81,7 +80,6 @@ namespace LoopAssignments
                         instrument = Console.ReadLine();
                         break;
                     case "ukulele":
-                        Console.WriteLine("You picked ukulele! That is correct!!!");
                         isCorrect = true;
                         break;
                     default:
@@ -91,6 +89,7 @@ namespace LoopAssignments
                         break;
                 }
             }
+            Console.WriteLine("You picked ukulele! That is correct!!!");
             Console.ReadLine();
         }
     }
