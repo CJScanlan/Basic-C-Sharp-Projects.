@@ -1,0 +1,7 @@
+C:\Users\CarlyScanlan\Desktop\C#\LoopAssignments\LoopAssignments\bin\Debug\LoopAssignments.exe.config
+C:\Users\CarlyScanlan\Desktop\C#\LoopAssignments\LoopAssignments\bin\Debug\LoopAssignments.exe
+C:\Users\CarlyScanlan\Desktop\C#\LoopAssignments\LoopAssignments\bin\Debug\LoopAssignments.pdb
+C:\Users\CarlyScanlan\Desktop\C#\LoopAssignments\LoopAssignments\obj\Debug\LoopAssignments.csprojAssemblyReference.cache
+C:\Users\CarlyScanlan\Desktop\C#\LoopAssignments\LoopAssignments\obj\Debug\LoopAssignments.csproj.CoreCompileInputs.cache
+C:\Users\CarlyScanlan\Desktop\C#\LoopAssignments\LoopAssignments\obj\Debug\LoopAssignments.exe
+C:\Users\CarlyScanlan\Desktop\C#\LoopAssignments\LoopAssignments\obj\Debug\LoopAssignments.pdb
