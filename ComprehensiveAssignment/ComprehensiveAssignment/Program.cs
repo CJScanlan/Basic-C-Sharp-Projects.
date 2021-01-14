@@ -78,8 +78,7 @@ class Program
         {
             if (animals[i].Contains(animalInput))
             {
-                Console.WriteLine(animalInput + ": {0}",
-                    animals.IndexOf(animalInput));
+                Console.WriteLine(animalInput + ": " + i);
                 animalFound = true;
             }
         }
@@ -132,7 +131,7 @@ class Program
             {
                 if (names[i].Contains(nameInput))
                 {
-                    Console.WriteLine(names[i]);
+                    Console.WriteLine(names[i] +": "+ i);
                     nameIsFound = true;
                 }
             }
