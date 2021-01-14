@@ -106,55 +106,42 @@ class Program
         Console.WriteLine("\nPlease enter a name to search for in the list.");
         string nameInput = Console.ReadLine().ToLower();
         bool nameIsFound = names.Contains(nameInput);
-        nameIsFound = false;
 
-        for (int i = 0; i < names.Count; i++)
+
+        if (nameIsFound)
         {
-            if (names[i].Contains(nameInput))
+            for (int i = 0; i < names.Count; i++)
             {
-                Console.WriteLine(nameInput + "\n");
-                nameIsFound = true;
+                if (names[i].Contains(nameInput))
+                {
+                    Console.WriteLine(names[i]);
+                    nameIsFound = true;
+                }
             }
         }
-        if (!nameIsFound)
+        else
         {
-            Console.WriteLine("The name you entered was not found. \n");
+            nameIsFound = false;
+            Console.WriteLine("The name you entered is not in the list.");
         }
 
+        IEnumerable<string> duplicates = names.GroupBy(x => x)
+                                            .Where(g => g.Count() > 1)
+                                            .Select(x => x.Key);
 
-
-
-        List<string> newName = new List<string>();
         var uniqueNames = names.Distinct();
 
-        foreach (string name in names)
+        if (names.Distinct().Count() != names.Count())
         {
-            if (!newName.Contains(name))
+            foreach (string name in uniqueNames)
             {
-                newName.Add(name);
-                Console.WriteLine(name + " has not been seen already.");
+                Console.WriteLine(name);
             }
-            else
+            foreach (string duplicate in duplicates)
             {
-                Console.WriteLine(name + " has already been seen.");
+                Console.WriteLine(duplicate + " has already appeared in the list.");
             }
         }
-
-        //IEnumerable<string> duplicates = names.GroupBy(x => x)
-        //                                    .Where(g => g.Count() > 1)
-        //                                    .Select(x => x.Key);
-
-        //if (names.Distinct().Count() != names.Count())
-        //{
-        //    foreach (string name in uniqueNames)
-        //    {
-        //        Console.WriteLine(name);
-        //    }
-        //    foreach (string duplicate in duplicates)
-        //    {
-        //        Console.WriteLine(duplicate + " has already appeared in the list.");
-        //    }
-        //}
         Console.ReadLine();
     }
 }
