@@ -105,22 +105,42 @@ class Program
 
         Console.WriteLine("\nPlease enter a name to search for in the list.");
         string nameInput = Console.ReadLine().ToLower();
+        bool nameIsFound = names.Contains(nameInput);
 
-        if (names.Contains(nameInput))
+
+        if (nameIsFound)
         {
-            foreach (string name in names)
+            for (int i = 0; i < names.Count; i++)
             {
-                while (name.Contains(nameInput))
+                if (names[i].Contains(nameInput))
                 {
-                    int index = names.FindIndex(a => a.Contains(nameInput));
-                    Console.WriteLine(nameInput + ": index " + index);
-                    break;
+                    Console.WriteLine(names[i]);
+                    nameIsFound = true;
                 }
             }
         }
         else
         {
+            nameIsFound = false;
             Console.WriteLine("The name you entered is not in the list.");
+        }
+
+        IEnumerable<string> duplicates = names.GroupBy(x => x)
+                                            .Where(g => g.Count() > 1)
+                                            .Select(x => x.Key);
+
+        var uniqueNames = names.Distinct();
+
+        if (names.Distinct().Count() != names.Count())
+        {
+            foreach (string name in uniqueNames)
+            {
+                Console.WriteLine(name);
+            }
+            foreach (string duplicate in duplicates)
+            {
+                Console.WriteLine(duplicate + " has already appeared in the list.");
+            }
         }
         Console.ReadLine();
     }
