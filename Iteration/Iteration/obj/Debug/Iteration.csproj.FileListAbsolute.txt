@@ -1,0 +1,6 @@
+C:\Users\CarlyScanlan\Desktop\C#\Iteration\Iteration\bin\Debug\Iteration.exe.config
+C:\Users\CarlyScanlan\Desktop\C#\Iteration\Iteration\bin\Debug\Iteration.exe
+C:\Users\CarlyScanlan\Desktop\C#\Iteration\Iteration\bin\Debug\Iteration.pdb
+C:\Users\CarlyScanlan\Desktop\C#\Iteration\Iteration\obj\Debug\Iteration.csproj.CoreCompileInputs.cache
+C:\Users\CarlyScanlan\Desktop\C#\Iteration\Iteration\obj\Debug\Iteration.exe
+C:\Users\CarlyScanlan\Desktop\C#\Iteration\Iteration\obj\Debug\Iteration.pdb
