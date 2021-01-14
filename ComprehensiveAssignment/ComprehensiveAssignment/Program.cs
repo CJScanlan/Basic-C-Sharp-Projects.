@@ -19,7 +19,7 @@ class Program
         {
             sentences[i] = sentences[i] + userInput;
         }
-        
+
         foreach (string sentence in sentences)
         {
             Console.WriteLine(sentence);
@@ -71,16 +71,34 @@ class Program
 
         Console.WriteLine("\nPlease enter an animal to search for in the list.");
         string animalInput = Console.ReadLine().ToLower();
+        bool animalFound = animals.Contains(animalInput);
+        animalFound = false;
 
-        if (animals.Contains(animalInput))
+        for (int i = 0; i < animals.Count; i++)
         {
-            Console.WriteLine(animalInput + ": index {0}",
-            animals.IndexOf(animalInput));
+            if (animals[i].Contains(animalInput))
+            {
+                Console.WriteLine(animalInput + ": {0}",
+                    animals.IndexOf(animalInput));
+                animalFound = true;
+            }
         }
-        else
+        if (!animalFound)
         {
-            Console.WriteLine("The animal you entered is not in the list.");
+            Console.WriteLine("The animal you entered was not in the list.");
         }
+
+
+
+        //if (animals.Contains(animalInput))
+        //{
+        //    Console.WriteLine(animalInput + ": index {0}",
+        //    animals.IndexOf(animalInput));
+        //}
+        //else
+        //{
+        //    Console.WriteLine("The animal you entered is not in the list.");
+        //}
 
 
         //foreach (string animal in animals)
@@ -125,23 +143,56 @@ class Program
             Console.WriteLine("The name you entered is not in the list.");
         }
 
-        IEnumerable<string> duplicates = names.GroupBy(x => x)
-                                            .Where(g => g.Count() > 1)
-                                            .Select(x => x.Key);
-
+        List<string> newName = new List<string>();
         var uniqueNames = names.Distinct();
 
-        if (names.Distinct().Count() != names.Count())
+        foreach (string name in names)
         {
-            foreach (string name in uniqueNames)
+            if (!newName.Contains(name))
             {
-                Console.WriteLine(name);
+                newName.Add(name);
+                Console.WriteLine(name + " has not been seen already.");
             }
-            foreach (string duplicate in duplicates)
+            else
             {
-                Console.WriteLine(duplicate + " has already appeared in the list.");
+                Console.WriteLine(name + " has already been seen.");
             }
         }
+
+        //IEnumerable<string> duplicates = names.GroupBy(x => x)
+        //                                    .Where(g => g.Count() > 1)
+        //                                    .Select(x => x.Key);
+
+        //if (names.Distinct().Count() != names.Count())
+        //{
+        //    foreach (string name in uniqueNames)
+        //    {
+        //        Console.WriteLine(name);
+        //    }
+        //    foreach (string duplicate in duplicates)
+        //    {
+        //        Console.WriteLine(duplicate + " has already appeared in the list.");
+        //    }
+        //}
+
+
+        //IEnumerable<string> duplicates = names.GroupBy(x => x)
+        //                                    .Where(g => g.Count() > 1)
+        //                                    .Select(x => x.Key);
+
+        //var uniqueNames = names.Distinct();
+
+        //if (names.Distinct().Count() != names.Count())
+        //{
+        //    foreach (string name in uniqueNames)
+        //    {
+        //        Console.WriteLine(name);
+        //    }
+        //    foreach (string duplicate in duplicates)
+        //    {
+        //        Console.WriteLine(duplicate + " has already appeared in the list.");
+        //    }
+        //}
         Console.ReadLine();
     }
 }
