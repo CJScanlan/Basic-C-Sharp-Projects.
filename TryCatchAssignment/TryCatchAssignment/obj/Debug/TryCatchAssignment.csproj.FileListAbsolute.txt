@@ -1,0 +1,6 @@
+C:\Users\CarlyScanlan\Desktop\C#\TryCatchAssignment\TryCatchAssignment\obj\Debug\TryCatchAssignment.csproj.CoreCompileInputs.cache
+C:\Users\CarlyScanlan\Desktop\C#\TryCatchAssignment\TryCatchAssignment\bin\Debug\TryCatchAssignment.exe.config
+C:\Users\CarlyScanlan\Desktop\C#\TryCatchAssignment\TryCatchAssignment\bin\Debug\TryCatchAssignment.exe
+C:\Users\CarlyScanlan\Desktop\C#\TryCatchAssignment\TryCatchAssignment\bin\Debug\TryCatchAssignment.pdb
+C:\Users\CarlyScanlan\Desktop\C#\TryCatchAssignment\TryCatchAssignment\obj\Debug\TryCatchAssignment.exe
+C:\Users\CarlyScanlan\Desktop\C#\TryCatchAssignment\TryCatchAssignment\obj\Debug\TryCatchAssignment.pdb
