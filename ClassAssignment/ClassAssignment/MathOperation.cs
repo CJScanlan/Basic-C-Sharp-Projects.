@@ -25,6 +25,5 @@ namespace ClassAssignment
             int Num3 = userNum * 2;
             Console.WriteLine(userNum + " multiplied by 2  equals: " + Num3);
         }
-        public int Number { get; set; }
     }
 }
