@@ -8,22 +8,26 @@ namespace ClassAssignment
 {
     public class MathOperation
     {
-        public void Addition(int userNum)
+
+        public int Addition(int userNum)
         {
-            int Num3 = userNum + 2;
-            Console.WriteLine(userNum + " plus 2  equals: " + Num3);
-        }
-        
-        public void Subtraction(int userNum)
-        {
-            int Num3 = userNum - 2;
-            Console.WriteLine(userNum + " minus 2  equals: " + Num3);
+            Num3 = userNum + 2;
+            return Num3;
         }
 
-        public void Multiplication(int userNum)
+        public int Subtraction(int userNum)
         {
-            int Num3 = userNum * 2;
-            Console.WriteLine(userNum + " multiplied by 2  equals: " + Num3);
+            Num4 = userNum - 2;
+            return Num4;
         }
+
+        public int Multiplication(int userNum)
+        {
+            Num5 = userNum * 2;
+            return Num5;
+        }
+        int Num3 { get; set; }
+        int Num4 { get; set; }
+        int Num5 { get; set; }
     }
 }
