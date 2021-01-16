@@ -14,7 +14,7 @@ namespace ClassAssignment
             Console.WriteLine(userNum + " plus 2  equals: " + Num3);
         }
         
-        public void Subtration(int userNum)
+        public void Subtraction(int userNum)
         {
             int Num3 = userNum - 2;
             Console.WriteLine(userNum + " minus 2  equals: " + Num3);
