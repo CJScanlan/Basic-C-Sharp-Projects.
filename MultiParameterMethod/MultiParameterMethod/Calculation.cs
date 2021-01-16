@@ -8,16 +8,10 @@ namespace MultiParameterMethod
 {
     class Calculation
     {
-        public void Message(int userNum, out int numCalculation, int userNum2 = 0)
+        public int Message(int userNum1, int userNum2 = 0)
         {
-            numCalculation = userNum / 7;
-
-            if (userNum2 > 0)
-            {
-                int dogYears = userNum2 * 7;
-                Console.WriteLine("Your dog is " + dogYears + " in human years!");
-            }
+            int result = (userNum1 - userNum2) / 2;
+                return result;
         }
-
     }
 }
