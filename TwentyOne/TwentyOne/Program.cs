@@ -10,6 +10,7 @@ namespace TwentyOne
     {
         static void Main(string[] args)
         {
+
             Deck deck = new Deck();
             deck.Shuffle(3);
 
