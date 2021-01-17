@@ -8,9 +8,14 @@ namespace TwentyOne
 {
     public class TwentyOneGame : Game //inheritance
     {
-        public void Play()
+        public override void Play() //use override keyword to implement method
         {
             throw new NotImplementedException();
+        }
+        public override void ListPlayers()
+        {
+            Console.WriteLine("21 Players:");
+            base.ListPlayers();
         }
     }
 }

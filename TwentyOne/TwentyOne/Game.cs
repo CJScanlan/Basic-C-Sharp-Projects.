@@ -6,13 +6,16 @@ using System.Threading.Tasks;
 
 namespace TwentyOne
 {
-    public class Game
+    public abstract class Game //base class - never instantiated, only inherited from
     {
         public List<string> Players { get; set; }
         public string Name { get; set; }
         public string Dealer { get; set; }
 
-        public void ListPlayers()
+        public abstract void Play(); //any inheriting class must implement this method
+
+        public virtual void ListPlayers() //virtual method in abstract class:
+                                           // this method gets inherited, but can be overridden
         {
             foreach(string player in Players)
             {
