@@ -38,6 +38,12 @@ namespace AbstractClassAssignment
                 Console.WriteLine(employee.firstName);
             }
 
+            List<Employee> idList = employeeList.Where(x => x.Id > 5).ToList();
+            foreach (Employee id in idList)
+            {
+                Console.WriteLine(id.firstName + " " + id.Id);
+            }
+
             //employee1.SayName();
             //IQuittable employee4 = new Employee();
             //Console.WriteLine("Employee 2 says: ");
