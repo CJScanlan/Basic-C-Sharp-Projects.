@@ -1,6 +1,6 @@
 C:\Users\CarlyScanlan\Desktop\C#\TwentyOne\Casino\bin\Debug\Casino.dll
 C:\Users\CarlyScanlan\Desktop\C#\TwentyOne\Casino\bin\Debug\Casino.pdb
-C:\Users\CarlyScanlan\Desktop\C#\TwentyOne\Casino\obj\Debug\Casino.csprojAssemblyReference.cache
 C:\Users\CarlyScanlan\Desktop\C#\TwentyOne\Casino\obj\Debug\Casino.csproj.CoreCompileInputs.cache
 C:\Users\CarlyScanlan\Desktop\C#\TwentyOne\Casino\obj\Debug\Casino.dll
 C:\Users\CarlyScanlan\Desktop\C#\TwentyOne\Casino\obj\Debug\Casino.pdb
+C:\Users\CarlyScanlan\Desktop\C#\TwentyOne\Casino\obj\Debug\Casino.csprojAssemblyReference.cache
