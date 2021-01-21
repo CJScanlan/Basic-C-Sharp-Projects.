@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TwentyOne
+namespace Casino.Interfaces
 {
     interface IWalkAway //naming convention starts with "I"
     {
