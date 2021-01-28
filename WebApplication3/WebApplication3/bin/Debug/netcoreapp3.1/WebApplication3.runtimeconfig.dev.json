@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\CarlyScanlan\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\CarlyScanlan\\.nuget\\packages"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+C:\Users\CarlyScanlan\Desktop\C#\CodeFirstStudentDB\CodeFirstStudentDB\bin\Debug\CodeFirstStudentDB.exe.config
+C:\Users\CarlyScanlan\Desktop\C#\CodeFirstStudentDB\CodeFirstStudentDB\bin\Debug\CodeFirstStudentDB.exe
+C:\Users\CarlyScanlan\Desktop\C#\CodeFirstStudentDB\CodeFirstStudentDB\bin\Debug\CodeFirstStudentDB.pdb
+C:\Users\CarlyScanlan\Desktop\C#\CodeFirstStudentDB\CodeFirstStudentDB\bin\Debug\EntityFramework.dll
+C:\Users\CarlyScanlan\Desktop\C#\CodeFirstStudentDB\CodeFirstStudentDB\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\CarlyScanlan\Desktop\C#\CodeFirstStudentDB\CodeFirstStudentDB\bin\Debug\EntityFramework.xml
+C:\Users\CarlyScanlan\Desktop\C#\CodeFirstStudentDB\CodeFirstStudentDB\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\CarlyScanlan\Desktop\C#\CodeFirstStudentDB\CodeFirstStudentDB\obj\Debug\CodeFirstStudentDB.csprojAssemblyReference.cache
+C:\Users\CarlyScanlan\Desktop\C#\CodeFirstStudentDB\CodeFirstStudentDB\obj\Debug\CodeFirstStudentDB.csproj.CoreCompileInputs.cache
+C:\Users\CarlyScanlan\Desktop\C#\CodeFirstStudentDB\CodeFirstStudentDB\obj\Debug\CodeFirstStudentDB.csproj.CopyComplete
+C:\Users\CarlyScanlan\Desktop\C#\CodeFirstStudentDB\CodeFirstStudentDB\obj\Debug\CodeFirstStudentDB.exe
+C:\Users\CarlyScanlan\Desktop\C#\CodeFirstStudentDB\CodeFirstStudentDB\obj\Debug\CodeFirstStudentDB.pdb
